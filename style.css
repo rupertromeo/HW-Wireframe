@@ -8,6 +8,9 @@ body {
 	text-align: center;
 	position: relative;
 	float:none;
+	padding-right:200px;
+	padding-left:200px;
+	
 }
 
 header, nav, footer, article {
@@ -40,10 +43,13 @@ header, nav, footer {
 
 #right {
 	position:relative;
-	width:450px;
-	height:200px;
+	right:-400px;
+	width:445px;
+	height:220px;
 	background-color:#ebebeb;
 	float: right;
+	margin-top:-220px;
+	margin-bottom:auto;
 	
 }
 

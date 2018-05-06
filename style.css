@@ -1,98 +1,57 @@
 body {
-	background-color: #777;
-	width:960px;
-	display: block;
-	box-sizing: border-box;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 960px;
+	margin: auto;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 18px;
+	line-height: 34px;
+	color: #FFFFF3;
+	background: #090707;
+  }
+  
+  header,
+  nav,
+  section,
+  aside,
+  footer {
+	display: block;
+	padding: 10px;
+	margin: 10px;
 	text-align: center;
-	position: relative;
-	float:none;
-	padding-right:200px;
-	padding-left:200px;
-	
-}
-
-header, nav, footer, article {
-	background-color: #ebebeb;
-}
-
-header, nav, footer {
-	width: 955px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	margin-left: auto;
-	margin-right:auto;
-	padding-left: auto;
-	padding-right: auto;
-}
-
-#left {
-	position:relative;
-	width:495px;
-	height:200px;
+	background: #30A9DE;
+  }
+  
+  section {
+	display: block;
 	float: left;
-	background-color:#ebebeb;
-	padding-top:10px;
-	padding-bottom:10px;
-	margin-top:auto;
-	margin-bottom:auto;
-}
-
-#right {
-	position:relative;
-	right:-395px;
-	width:445px;
-	height:220px;
-	background-color:#ebebeb;
+	width: 495px;
+	height: 267px;
+	overflow: hidden;
+  }
+  
+  aside {
+	display: block;
 	float: right;
-	margin-top:-220px;
-	margin-bottom:auto;
-	
-}
-
-article {
-	position: relative;
-	width: 485px;
-	background-color:#777;
-	margin:auto;
-	margin-top:15px;
-	padding-top:25px;
-	padding-bottom:120px;
-}
-
-.content {
-	margin:auto;
-	padding:auto;
-}
-
-p {
-	margin:15px, auto, 15px, auto;
-}
-
-#one, #two {
-	position:relative;
-	margin-top:15px;
-	margin-bottom:15px;
-	padding-top:5px;
-	padding-bottom:5px;
-	padding-left:auto;
-	padding-right:auto;
-	top: -115px;
-	background-color:#ebebeb;
-	height:25px;
-	width:95%;
-}
-
-footer {
-	position:static;
-	float:none;
-	margin-top:250px;
-}
-
-.clearfix {
-    overflow: auto;
-}
-
+	width: 40%;
+	height: 267px;
+	overflow: hidden;
+  }
+  
+  article {
+	padding: 10px;
+	color: #3f4040;
+	background: #E53A40;
+  }
+  
+  .clear {
+	clear: both;
+  }
+  
+  h1,
+  p {
+	width: 90%;
+	padding: 10px;
+	margin: 10px;
+	color: #FFFFF3;
+	text-align: center;
+	background: #EFDC05;
+  }
